@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        [class*="col-"] {
+            float: left;
+            padding: 10px;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .menu {
+            float: left;
+            margin: auto;
+            padding: 10px;
+            background-color: rgba(219, 106, 128, 0.3);
+            color: maroon;
+        }
+        
+        .menu a {
+            color: maroon;
+            text-decoration: none;
+        }
+
+        li a:hover{
+            color: navy;
+        }
+        
+        h2{
+            text-align: left;
+            padding: 5px;
+            color: maroon;
+            letter-spacing: 0.2em;
+        }
+        .content {
+            float: left;
+            padding-left: 30px;
+            padding-right: 30px;
+            background-color:#f1f1f1;
+            color: maroon;
+            text-decoration: none;
+        }
+        
+        .title {
+            text-align: center;
+            background-color: rgba(219, 106, 128, 0.7);
+            border-radius: 5px;
+            padding: 5px;
+            color: maroon;
+            border: 2px solid maroon;
+            letter-spacing: 0.5em;
+        }
+        
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+        .col-1 {
+            width: 8.33%;
+        }
+        
+        .col-2 {
+            width: 16.66%;
+        }
+        
+        .col-3 {
+            width: 25%;
+        }
+        
+        .col-4 {
+            width: 33.33%;
+        }
+        
+        .col-5 {
+            width: 41.66%;
+        }
+        
+        .col-6 {
+            width: 50%;
+        }
+        
+        .col-7 {
+            width: 58.33%;
+        }
+        
+        .col-8 {
+            width: 66.66%;
+        }
+        
+        .col-9 {
+            width: 75%;
+        }
+        
+        .col-10 {
+            width: 83.33%;
+        }
+        
+        .col-11 {
+            width: 91.66%;
+        }
+        
+        .col-12 {
+            width: 100%;
+        }
+
+        footer {
+            background-color: rgba(219, 106, 128, 0.8);
+            padding: 10px;
+            text-align: center;
+            color: white;
+            border-top: 2px solid maroon;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-12 title" style="margin-top:30px;">
+            <h1>My Website</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="col-3 menu">
+                <ul>
+                    <li><a href="../Soal-3.html">Home</a></li>
+                </ul>
+            </div>
+            <div class="col-9 content">
+                <h2>Daftar Resep:</h2>
+                <ol> 
+                    <b>
+                    <li><a href="">Ayam Goreng</a></li>
+                    <li><a href="">Cilung</a></li>
+                    <li><a href="">Cimol</a></li>
+                    <li><a href="">Makaroni Telur</a></li>
+                    <li><a href="">Nasi Goreng</a></li>
+                    <li><a href="">Tahu Bulat</a></li>
+                    </b>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <span>&copy; Copyright Nisrina 2021<span>
+        </div>
+      </footer>
+</body>
+
+</html>

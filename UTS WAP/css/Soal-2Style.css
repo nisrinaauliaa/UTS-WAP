@@ -1,0 +1,32 @@
+*{
+    font-family:Arial;
+    background-color: rgb(241, 202, 187);
+}
+
+h1{
+    text-align: center;
+    color:maroon;
+    background-color:rgb(216, 130, 96);
+    border-radius: 5px;
+    padding: 20px;
+    text-transform: uppercase;
+    text-shadow: 3px 1px 3px brown;
+    letter-spacing: 0.1em;
+    border: 2px solid maroon;
+}
+
+.option{
+    color: crimson;
+}
+
+a{
+    color:firebrick;
+}
+
+p{
+    color: firebrick;
+}
+
+a.link:hover{
+    color: navy;
+}
